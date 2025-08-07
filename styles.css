@@ -149,16 +149,37 @@ footer .social {
     }
 }
 
-@media (max-width: 1200px) {
-    body > * {
-        margin: 20px;
+@media (min-width: 601px) and (max-width: 1024px) { 
+    
+    .content {
+        flex-direction: column;
+        align-items: center;
     }
 
-    #about {
-        padding: 15px;
+    .content img {
+        width: min(50%, 200px);
     }
 
-    .projects {
-        grid-template-columns: repeat(2, 1fr);
+    @media (min-width: 601px) and (max-width: 768px) {
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer img {
+        width: min(50%, 500px);
     }
 }
