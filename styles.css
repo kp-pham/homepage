@@ -37,7 +37,7 @@ svg {
     gap: 20px;
 }
 
-.social {
+#about .social {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
@@ -86,7 +86,11 @@ svg {
 }
 
 footer {
-    background: #1F1F1F;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 40px;
+    background-color: #1F1F1F;
 }
 
 footer svg {
@@ -94,7 +98,12 @@ footer svg {
 }
 
 footer p {
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    align-items: center;
     gap: 10px;
+}
+
+footer .social {
+    display: flex;
+    gap: 20px;
 }
