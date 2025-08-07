@@ -98,7 +98,7 @@ svg {
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 20px;
     gap: 40px;
     background-color: #1F1F1F;
 }
@@ -116,4 +116,35 @@ footer p {
 footer .social {
     display: flex;
     gap: 20px;
+}
+
+@media (max-width: 600px) {
+    body > * {
+        margin: 10px;
+    }
+
+    #about {
+        padding: 10px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+    
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        padding: 5px;
+    }
+
+    .description {
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
 }
