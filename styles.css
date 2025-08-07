@@ -24,6 +24,7 @@ a:focus {
 
 svg {
     fill: white;
+    aspect-ratio: 1 / 1;
 }
 
 #about {
@@ -34,6 +35,17 @@ svg {
 .content {
     display: flex;
     gap: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px;
+}
+
+.social svg {
+    width: 30px;
 }
 
 .projects {
@@ -66,8 +78,23 @@ svg {
 .links {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .links svg {
     width: 25px;
+}
+
+footer {
+    background: #1F1F1F;
+}
+
+footer svg {
+    width: 20px;
+}
+
+footer p {
+    /* display: flex;
+    align-items: center; */
+    gap: 10px;
 }
