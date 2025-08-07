@@ -85,6 +85,16 @@ svg {
     width: 25px;
 }
 
+.tech-stack {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.tech-stack > svg {
+    width: 30px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
