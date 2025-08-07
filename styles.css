@@ -148,3 +148,17 @@ footer .social {
         flex-direction: column;
     }
 }
+
+@media (max-width: 1200px) {
+    body > * {
+        margin: 20px;
+    }
+
+    #about {
+        padding: 15px;
+    }
+
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
